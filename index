@@ -8,6 +8,7 @@
 
   <body>
     <header>
+      <div>
       <img src="" alt="" />
       <nav>
         <ul>
@@ -16,10 +17,11 @@
           <li>Services</li>
           <li>Faq</li>
           <li>Contact</li>
-          <h1>Fitness in a can</h1>
-          <h2>Yes you can</h2>
         </ul>
       </nav>
+      </div>
+      <h1>Fitness in a can</h1>
+          <h2>Yes you can</h2>
     </header> 
     <main>
       <section>
@@ -56,6 +58,7 @@
         </li>
       </ul>
      <div>
+      <div>
        <div>
          <h3>It's all about</h3>
          <h2>Fitness first</h2>
@@ -64,7 +67,7 @@
          <a href="Read more">Read more</a>
        </div>
        <img src="" alt="" />
-       
+       </div>
        <div>
          <img src="" alt="" />
          <div>
@@ -80,7 +83,7 @@
     </section> 
     </main>
     <footer>
-      
+     
       <form action="" method="post">
        <input type="text" placeholder="Your name" />
        <input type="text" placeholder=Email />
@@ -88,8 +91,8 @@
         </form>
       <ul>
         <li>
-          <a href="
-          "> <img src="" alt="" />
+          <a href=""> 
+            <img src="" alt="" />
           </a>
         </li>
         <li>
@@ -107,7 +110,6 @@
           "> <img src="" alt="" />
           </a>
         </li>
-        
       </ul>
     </footer>
   </body>
