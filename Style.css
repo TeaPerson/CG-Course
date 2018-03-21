@@ -87,19 +87,22 @@
 	background: #ffffff;
 	text-align: center;
 
+
 }
 
 .second-title{
 	color: #a2ca28;
 	font-size: 30px;
 	text-transform: uppercase;
-	width: 300px
-
+	width: 300px;
+	padding-top: 15px
+	
 }
 
 .third-title{
 	font-size: 12px;
 	color: #fb634c;
+	padding-top: 55px
 }
 
 .link-feature{
