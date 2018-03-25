@@ -67,20 +67,20 @@
 	font-size: 14px;
 	text-decoration: none;
 	font-family: ProximaNova-Reg;
-	font-weight: 300
 }
 
 .benefits-title{
 	font-size: 24px;
 	font-family: OpenSans-Regular;
-	font-weight: 300
+	padding-top: 20px
 
 }
 
 .benefits-text{
 	font-size: 14px;
 	font-family: ProximaNova-Reg;
-	font-weight: 300
+	padding-top: 30px;
+	padding-bottom: 30px
 }
 
 .main-second{
@@ -106,8 +106,9 @@
 	text-transform: uppercase;
 	width: 300px;
 	padding-top: 15px;
+	padding-bottom: 30px;
 	font-family: OpenSans-Light;
-	font-weight: 100
+	
 	
 }
 
@@ -116,13 +117,13 @@
 	color: #fb634c;
 	padding-top: 55px;
 	font-family: Montserrat-Regular;
-	font-weight: 300
+	text-transform: uppercase;
 }
 
 .link-feature{
 	color: #a2ca28;
 	font-size: 12px;
-	font-family: OpenSans-Regular
+	font-family: OpenSans-Regular;
 }
 
 .main-third{
@@ -133,57 +134,54 @@
 }
 
 .text-feature{
-	font-size: 12px;
+	font-size: 14px;
 	color: #757e83;
-	font-family: OpenSans-Regular
+	font-family: OpenSans-Regular;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 
 }
 
 @font-face{
 	src: url(./fonts/AvenirNext/AvenirNextCyr-Regular.ttf);
 	font-family: AvenirNextCyr-Regular;
-	font-weight: 300
 }
 
 @font-face{
 	src: url(./fonts/ProximaNova/ProximaNova-Reg.otf);
 	font-family: ProximaNova-Reg;
-	font-weight: 300
 }
 
 @font-face{
 	src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
 	font-family: OpenSans-Regular;
-	font-weight: 300
 }
 
 @font-face{
 	src: url(./fonts/OpenSans/OpenSans-Light.ttf);
 	font-family: OpenSans-Light;
-	font-weight: 100
 }
 
 @font-face{
 	src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
 	font-family: Montserrat-Regular;
-	font-weight: 300
 }
 
 @font-face{
 	src: url(./fonts/ProximaNova/ProximaNova-Semibold/ProximaNova-Semibold.ttf);
 	font-family: ProximaNova-Semibold;
-	font-weight: 600;
 }
 
 .button-style{
 	font-family: ProximaNova-Semibold;
-	font-weight: 600;
 	background: #a2ca28;
 	color: #fff;
 	font-size: 15px;
 	padding: 20px 45px;
 	position: relative;
-	border-radius: 4px
+	border-radius: 4px;
   
   }
 
@@ -201,6 +199,7 @@
 
   .image-cover{
   	position: relative;
+  	height: 394px;
   }
 
   .image-cover::before{
@@ -213,7 +212,8 @@
   }
 
   .image-cover:hover::before{
-  	content: ''
+  	content: '';
+
   }
 
   .image-hover{
@@ -222,6 +222,7 @@
   	top: 50%;
   	text-align: center;
   	display: none;
+  	height: 394px;
   }
 
  .image-cover:hover .image-hover{
@@ -233,13 +234,13 @@
   	background-color: #0d1119;
   	display: flex;
   	justify-content: space-around;
-  	height: 148px
+  	height: 148px;
   }
 
   .social_buttons{
   	list-style: none;
   	display: flex;
-  	padding-top: 70px
+  	padding-top: 70px;
   }
 
   .social{
@@ -248,12 +249,12 @@
   border-radius: 50%;
   margin-left: 20px;
   position: relative;
- 
-
-}
+  
+ }
 
 .social_fb{
-	background: #2e3192
+	background: #2e3192;
+	
 }
 
 .social_fb::before{
@@ -265,11 +266,12 @@
   position: absolute;
   top: 15px;
   left: 15px;
+  background-repeat: no-repeat;
 }
 
 
 .social_tw{
-	background: #00aeef
+	background: #00aeef;
 
 }
 
@@ -281,7 +283,8 @@
 	display: block;
 	position: absolute;
 	top: 15px;
-	left: 15px
+	left: 15px;
+	background-repeat: no-repeat;
 }
 
 .social_yt{
@@ -298,33 +301,37 @@
 	display: block;
 	position: absolute;
 	top: 15px;
-	left: 15px
+	left: 15px;
+	background-repeat: no-repeat;
 
 }
 
 .social_in{
-	background: #171a8f
+	background: #171a8f;
 
 }
 
 .social_in::before{
 	content: '';
-	background-image: url(./images/ln.svg);
+	background-image: url(.images/ln.svg);
 	width: 18px;
 	height: 18px;
 	display: block;
 	position: absolute;
 	top: 15px;
-	left: 15px
+	left: 15px;
+	background-repeat: no-repeat;
 }
 
 .my-form{
-	padding-top: 70px
+	padding-top: 70px;
 }
 
 .my-input{
 	font-family: ProximaNova-Reg;
 	font-size: 14px;
 	border-radius: 4px;
-	height: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }

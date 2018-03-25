@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="15" viewBox="0 0 21 15">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -27,14 +27,5 @@
                                                                                                     
                            
 <?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        font-size: 30px;
-        fill: #f4f2f2;
-        font-family: FontAwesome;
-      }
-    </style>
-  </defs>
-  <text id="fa-youtube-play" class="cls-1" transform="translate(0.194 14.907) scale(0.68 0.685)"></text>
+<image id="fa-youtube-play" width="21" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAPBAMAAAD5dJlYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAALVBMVEUAAAD////08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vIAAAAqTGmYAAAADXRSTlMAADNEd5mq3bsi7mYRtaA/UQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfiAxkFFzmhpLyZAAAAXUlEQVQI12NgUHYBA2dFAQbWu1BwVYDBFsa+a8DgC2c7MOQCyVowO4GhF0h6ggTuNoDZDsy9CDYDC1Zx516E+rV3IWxk8/fC2RsYTsGYtw4w8Hh0dLTfrejo8BQAAIsRbx6xdeUZAAAAAElFTkSuQmCC"/>
 </svg>

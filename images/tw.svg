@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="16" viewBox="0 0 19 16">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -27,14 +27,5 @@
                                                                                                     
                            
 <?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        font-size: 60px;
-        fill: #f4f2f2;
-        font-family: EntypoSocial;
-      }
-    </style>
-  </defs>
-  <text id="twitter_62217_" data-name="twitter (&amp;#62217;)" class="cls-1" transform="translate(-1.586 17.963) scale(0.68 0.685)"></text>
+<image id="twitter_62217_" data-name="twitter (&amp;#62217;)" width="19" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQBAMAAAAG6llRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEX08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vL08vIAAABVAHPUAAAADnRSTlMAEZnd7iJEzDOIqne7ZgZyGMwAAAABYktHRA8YugDZAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4gMZBRcY7c2sxwAAAIJJREFUCNdjYGQAAiETVTYBBnYBBgZGu3dPjBgY8iwYGDjfvXvnlcAQ924jAw+Q+ZYBSD3RTgcyDzAwRNu9AwMgUw7CereAgYEJytwANOgchBkANP46mPUIZFMemOkKYrLVgZgXQEyGGIgFDAxhu4Csxw0gpjTQiucQaQbWtLQAMAMApvBN7wK9DnIAAAAASUVORK5CYII="/>
 </svg>
