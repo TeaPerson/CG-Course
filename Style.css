@@ -11,6 +11,7 @@
 	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 13px;
+	font-weight: 300
 }
 
 .main-menu-container{
@@ -26,6 +27,7 @@
 	height: 890px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: AvenirNextCyr-Regular
 }
 
 .main-title{
@@ -56,7 +58,7 @@
 	margin: 0 auto;
 	padding-left: 0;
 	color: #ffffff;
-	padding-top: 40px
+	padding-top: 40px;
 
 }
 
@@ -64,14 +66,21 @@
 	color: #ffffff;
 	font-size: 14px;
 	text-decoration: none;
+	font-family: ProximaNova-Reg;
 }
 
 .benefits-title{
-	font-size: 24px
+	font-size: 24px;
+	font-family: OpenSans-Regular;
+	padding-top: 20px
+
 }
 
 .benefits-text{
-	font-size: 14px
+	font-size: 14px;
+	font-family: ProximaNova-Reg;
+	padding-top: 30px;
+	padding-bottom: 30px
 }
 
 .main-second{
@@ -86,28 +95,35 @@
 .article1{
 	background: #ffffff;
 	text-align: center;
+	height: 394px
 
 
 }
 
 .second-title{
 	color: #a2ca28;
-	font-size: 30px;
+	font-size: 35px;
 	text-transform: uppercase;
 	width: 300px;
-	padding-top: 15px
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-family: OpenSans-Light;
+	
 	
 }
 
 .third-title{
 	font-size: 12px;
 	color: #fb634c;
-	padding-top: 55px
+	padding-top: 55px;
+	font-family: Montserrat-Regular;
+	text-transform: uppercase;
 }
 
 .link-feature{
 	color: #a2ca28;
-	font-size: 12px;
+	font-size: 14px;
+	font-family: OpenSans-Regular;
 }
 
 .main-third{
@@ -118,6 +134,204 @@
 }
 
 .text-feature{
-	font-size: 12px;
-	color: #757e83
+	font-size: 14px;
+	color: #757e83;
+	font-family: OpenSans-Regular;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+@font-face{
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Regular.ttf);
+	font-family: AvenirNextCyr-Regular;
+}
+
+@font-face{
+	src: url(./fonts/ProximaNova/ProximaNova-Reg.otf);
+	font-family: ProximaNova-Reg;
+}
+
+@font-face{
+	src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+
+@font-face{
+	src: url(./fonts/OpenSans/OpenSans-Light.ttf);
+	font-family: OpenSans-Light;
+}
+
+@font-face{
+	src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(./fonts/ProximaNova/ProximaNova-Semibold/ProximaNova-Semibold.ttf);
+	font-family: ProximaNova-Semibold;
+}
+
+.button-style{
+	font-family: ProximaNova-Semibold;
+	background: #a2ca28;
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 45px;
+	position: relative;
+	border-radius: 4px;
+  
+  }
+
+  .button-style:after{
+  	content: '';
+  	display: inline-block;
+  	background-image: url('./images/arrow.svg');
+  	background-repeat: no-repeat;
+  	width: 16px;
+  	height: 18px;
+  	position: absolute;
+  	right: 15px;
+
+  }
+
+  .image-cover{
+  	position: relative;
+  	height: 394px;
+  }
+
+  .image-cover::before{
+  	display: block;
+  	background: rgba(0, 0, 0, 0.3);
+  	width: 794px;
+  	height: 394px;
+  	position: absolute;
+  }
+
+  .image-cover:hover::before{
+  	content: '';
+
+  }
+
+  .image-hover{
+  	position: absolute;
+  	top: 50%;
+  	text-align: center;
+  	display: none;
+  	margin-top: -73px; 
+  	width: 100%
+
+  }
+
+ .image-cover:hover .image-hover{
+ 	display: block;
+ 	
+ }
+
+  .my-footer{
+  	background-color: #0d1119;
+  	display: flex;
+  	justify-content: space-around;
+  	height: 148px;
+  }
+
+  .social_buttons{
+  	list-style: none;
+  	display: flex;
+  	padding-top: 70px;
+  }
+
+  .social{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 20px;
+  position: relative;
+  
+ }
+
+.social_fb{
+	background: #2e3192;
+	
+}
+
+.social_fb::before{
+	content: '';
+	background-image: url(./images/fb.svg);
+	width: 18px;
+  display: block;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-repeat: no-repeat;
+}
+
+
+.social_tw{
+	background: #00aeef;
+
+}
+
+.social_tw::before{
+	content: '';
+	background-image: url(./images/tw.svg);
+	width: 18px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+.social_yt{
+	background: #ed3123;
+
+
+}
+
+.social_yt::before{
+		content: '';
+	background-image: url(./images/yt.svg);
+	width: 18px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-repeat: no-repeat;
+
+}
+
+.social_in{
+	background: #171a8f;
+
+}
+
+.social_in::before{
+	content: '';
+	background-image: url(./images/ln.svg);
+	width: 18px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+.my-form{
+	padding-top: 70px;
+}
+
+.my-input{
+	font-family: ProximaNova-Reg;
+	font-size: 14px;
+	border-radius: 4px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }
