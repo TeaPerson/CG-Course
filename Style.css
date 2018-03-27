@@ -108,6 +108,7 @@
 	padding-top: 15px;
 	padding-bottom: 30px;
 	font-family: OpenSans-Light;
+	margin: 0 auto
 	
 	
 }
@@ -200,6 +201,7 @@
   .image-cover{
   	position: relative;
   	height: 394px;
+
   }
 
   .image-cover::before{
@@ -208,6 +210,7 @@
   	width: 794px;
   	height: 394px;
   	position: absolute;
+
   }
 
   .image-cover:hover::before{
@@ -217,11 +220,12 @@
 
   .image-hover{
   	position: absolute;
+  	width: 100%;
   	top: 50%;
   	text-align: center;
   	display: none;
   	margin-top: -73px; 
-  	width: 100%
+
 
   }
 
@@ -321,6 +325,7 @@
 	top: 15px;
 	left: 15px;
 	background-repeat: no-repeat;
+ 
 }
 
 .my-form{
