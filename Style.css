@@ -1,8 +1,10 @@
 .main-menu{
 	display: flex;
 	justify-content: space-between;
-	width: 500px;
-	list-style: none
+	width: 580px;
+	list-style: none;
+	padding-right: 30px;
+    padding-top: 15px;
 }
 
 
@@ -17,9 +19,8 @@
 .main-menu-container{
 	display: flex;
 	justify-content: space-between;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 20px
+	padding-left: 52px;
+	padding-top: 47px
 }
 
 .header{
@@ -27,7 +28,8 @@
 	height: 890px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: AvenirNextCyr-Regular
+	font-family: AvenirNextCyr-Regular;
+	position: relative;
 }
 
 .main-title{
@@ -36,6 +38,10 @@
 	margin-top: 300px;
 	margin-left: 50px;
 	text-transform: uppercase;
+	position: absolute;
+	bottom: 140px; 
+	left: 90px;
+
 }
 
 .subtitle{
@@ -43,22 +49,26 @@
 	font-size: 15px;
 	margin-left: 200px;
 	text-transform: uppercase;
+	position: absolute;
+	left: 80px;
+	bottom: 145px
 
 }
 
 .main{
 	background: #a2ca28;
+	
 }
 
 .benefits{
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 	padding-left: 0;
 	color: #ffffff;
-	padding-top: 40px;
+	padding-top: 100px;
 
 }
 
@@ -72,7 +82,7 @@
 .benefits-title{
 	font-size: 24px;
 	font-family: OpenSans-Regular;
-	padding-top: 20px
+	padding-top: 20px;
 
 }
 
@@ -87,15 +97,18 @@
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 400px;
+	margin-left: 400px;
 	margin-top: 110px;
+	background: red
+
 }
 
 .article1{
 	background: #ffffff;
 	text-align: center;
-	height: 394px
+	height: 394px;
+
 
 
 }
@@ -104,12 +117,12 @@
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
-	width: 300px;
 	padding-top: 15px;
 	padding-bottom: 30px;
 	font-family: OpenSans-Light;
-	margin: 0 auto
-	
+	margin: 0 auto;
+	width: 400px;
+
 	
 }
 
@@ -119,6 +132,8 @@
 	padding-top: 55px;
 	font-family: Montserrat-Regular;
 	text-transform: uppercase;
+
+
 }
 
 .link-feature{
@@ -130,19 +145,15 @@
 .main-third{
 	display: flex;
 	justify-content: center;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 400px;
+	margin-left: 400px;
+
 }
 
 .text-feature{
 	font-size: 14px;
 	color: #757e83;
 	font-family: OpenSans-Regular;
-	padding-top: 30px;
-	padding-bottom: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
-
 }
 
 @font-face{
@@ -180,11 +191,26 @@
 	background: #a2ca28;
 	color: #fff;
 	font-size: 15px;
-	padding: 20px 45px;
+	padding: 15px 40px;
 	position: relative;
 	border-radius: 4px;
   
   }
+
+  .button-style:hover {
+  animation: infinite 2s buttonAnimation; }
+
+  @keyframes buttonAnimation {
+  0% {
+    background: #a2ca28;
+    transform: scale(0.9, 0.9);
+  }
+  100%{
+     background: #fb634c;
+     transform: scale(1, 1);
+  }}
+
+
 
   .button-style:after{
   	content: '';
@@ -202,6 +228,8 @@
   	position: relative;
   	height: 394px;
 
+
+
   }
 
   .image-cover::before{
@@ -210,11 +238,16 @@
   	width: 794px;
   	height: 394px;
   	position: absolute;
+  	opacity: 0;
+  	transition: all 0.5s;
+  	content: ""
+  	
+
 
   }
 
   .image-cover:hover::before{
-  	content: '';
+  	opacity: 1
 
   }
 
@@ -223,16 +256,16 @@
   	width: 100%;
   	top: 50%;
   	text-align: center;
-  	display: none;
+  	opacity: 0;
   	margin-top: -73px; 
-
-
-  }
+  	transition: all 2s
+  	 }
 
  .image-cover:hover .image-hover{
- 	display: block;
+ 	opacity: 1
  	
- }
+ 	
+  }
 
   .my-footer{
   	background-color: #0d1119;
@@ -305,7 +338,7 @@
 	display: block;
 	position: absolute;
 	top: 15px;
-	left: 15px;
+	left: 16px;
 	background-repeat: no-repeat;
 
 }
@@ -322,8 +355,8 @@
 	height: 18px;
 	display: block;
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	top: 14px;
+	left: 16px;
 	background-repeat: no-repeat;
  
 }
@@ -336,7 +369,20 @@
 	font-family: ProximaNova-Reg;
 	font-size: 14px;
 	border-radius: 4px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 20px;
+	max-width: 315px;
+	min-width: 200px
+}
+
+.my-input2{
+	font-family: ProximaNova-Reg;
+	font-size: 14px;
+	border-radius: 4px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	max-width: 275px;
+	min-width: 200px;
 }
