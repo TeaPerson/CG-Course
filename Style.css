@@ -1,8 +1,14 @@
+.page-body{
+	min-width: 1200px;
+}
+
 .main-menu{
 	display: flex;
 	justify-content: space-between;
-	width: 500px;
-	list-style: none
+	width: 510px;
+	list-style: none;
+	padding-right: 30px;
+    padding-top: 15px;
 }
 
 
@@ -17,9 +23,8 @@
 .main-menu-container{
 	display: flex;
 	justify-content: space-between;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 20px
+	padding-left: 52px;
+	padding-top: 47px
 }
 
 .header{
@@ -27,7 +32,8 @@
 	height: 890px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: AvenirNextCyr-Regular
+	font-family: AvenirNextCyr-Regular;
+	position: relative;
 }
 
 .main-title{
@@ -36,6 +42,10 @@
 	margin-top: 300px;
 	margin-left: 50px;
 	text-transform: uppercase;
+	position: absolute;
+	bottom: 140px; 
+	left: 90px;
+
 }
 
 .subtitle{
@@ -43,22 +53,26 @@
 	font-size: 15px;
 	margin-left: 200px;
 	text-transform: uppercase;
+	position: absolute;
+	left: 80px;
+	bottom: 145px
 
 }
 
 .main{
 	background: #a2ca28;
+	
 }
 
 .benefits{
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 	padding-left: 0;
 	color: #ffffff;
-	padding-top: 40px;
+	padding-top: 110px;
 
 }
 
@@ -69,33 +83,42 @@
 	font-family: ProximaNova-Reg;
 }
 
+.benefits-icon{
+	height: 48px;
+}
+
 .benefits-title{
 	font-size: 24px;
 	font-family: OpenSans-Regular;
-	padding-top: 20px
+	padding-top: 15px;
 
 }
 
 .benefits-text{
 	font-size: 14px;
 	font-family: ProximaNova-Reg;
-	padding-top: 30px;
-	padding-bottom: 30px
+	padding-top: 25px;
+	padding-bottom: 25px;
+	line-height: 1.5;
+	padding-right: 50px;
 }
 
 .main-second{
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	margin-right: 200px;
-	margin-left: 200px;
-	margin-top: 110px;
+	padding-top: 110px;
+	width: 1194px;
+	margin: 0 auto;
+
 }
 
 .article1{
 	background: #ffffff;
 	text-align: center;
-	height: 394px
+	height: 394px;
+	width: 400px;
+
 
 
 }
@@ -104,20 +127,23 @@
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
-	width: 300px;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 	font-family: OpenSans-Light;
-	
+	margin: 0 auto;
+	width: 300px;
+
 	
 }
 
 .third-title{
-	font-size: 12px;
+	font-size: 14px;
 	color: #fb634c;
 	padding-top: 55px;
 	font-family: Montserrat-Regular;
 	text-transform: uppercase;
+
+
 }
 
 .link-feature{
@@ -129,19 +155,27 @@
 .main-third{
 	display: flex;
 	justify-content: center;
-	margin-right: 200px;
-	margin-left: 200px;
+	width: 1194px;
+	margin: 0 auto;
+
 }
+
+.icon-drop{
+	padding-right: 7px;
+    padding-bottom: 20px;
+
+}
+
 
 .text-feature{
 	font-size: 14px;
 	color: #757e83;
 	font-family: OpenSans-Regular;
-	padding-top: 30px;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.5;
 	padding-bottom: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
-
 }
 
 @font-face{
@@ -179,11 +213,26 @@
 	background: #a2ca28;
 	color: #fff;
 	font-size: 15px;
-	padding: 20px 45px;
+	padding: 17px 40px;
 	position: relative;
 	border-radius: 4px;
   
   }
+
+  .button-style:hover {
+  animation: infinite 2s buttonAnimation; }
+
+  @keyframes buttonAnimation {
+  0% {
+    background: #a2ca28;
+    transform: scale(0.9, 0.9);
+  }
+  100%{
+     background: #fb634c;
+     transform: scale(1, 1);
+  }}
+
+
 
   .button-style:after{
   	content: '';
@@ -200,6 +249,9 @@
   .image-cover{
   	position: relative;
   	height: 394px;
+
+
+
   }
 
   .image-cover::before{
@@ -208,27 +260,34 @@
   	width: 794px;
   	height: 394px;
   	position: absolute;
+  	opacity: 0;
+  	transition: all 0.5s;
+  	content: ""
+  	
+
+
   }
 
   .image-cover:hover::before{
-  	content: '';
+  	opacity: 1
 
   }
 
   .image-hover{
   	position: absolute;
+  	width: 100%;
   	top: 50%;
   	text-align: center;
-  	display: none;
+  	opacity: 0;
   	margin-top: -73px; 
-  	width: 100%
-
-  }
+  	transition: all 2s
+  	 }
 
  .image-cover:hover .image-hover{
- 	display: block;
+ 	opacity: 1
  	
- }
+ 	
+  }
 
   .my-footer{
   	background-color: #0d1119;
@@ -301,7 +360,7 @@
 	display: block;
 	position: absolute;
 	top: 15px;
-	left: 15px;
+	left: 16px;
 	background-repeat: no-repeat;
 
 }
@@ -318,20 +377,24 @@
 	height: 18px;
 	display: block;
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	top: 14px;
+	left: 16px;
 	background-repeat: no-repeat;
+ 
 }
 
 .my-form{
 	padding-top: 70px;
+	margin-left: 75px;
 }
 
 .my-input{
 	font-family: ProximaNova-Reg;
 	font-size: 14px;
 	border-radius: 4px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 20px;
+	width: 200px;
 }
+
