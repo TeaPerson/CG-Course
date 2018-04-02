@@ -83,6 +83,10 @@
 	font-family: ProximaNova-Reg;
 }
 
+.benefits-icon{
+	height: 48px;
+}
+
 .benefits-title{
 	font-size: 24px;
 	font-family: OpenSans-Regular;
@@ -96,6 +100,7 @@
 	padding-top: 25px;
 	padding-bottom: 25px;
 	line-height: 1.5;
+	padding-right: 50px;
 }
 
 .main-second{
@@ -123,7 +128,7 @@
 	font-size: 35px;
 	text-transform: uppercase;
 	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	font-family: OpenSans-Light;
 	margin: 0 auto;
 	width: 300px;
@@ -152,6 +157,12 @@
 	justify-content: center;
 	width: 1194px;
 	margin: 0 auto;
+
+}
+
+.icon-drop{
+	padding-right: 7px;
+    padding-bottom: 20px;
 
 }
 
@@ -202,7 +213,7 @@
 	background: #a2ca28;
 	color: #fff;
 	font-size: 15px;
-	padding: 15px 40px;
+	padding: 17px 40px;
 	position: relative;
 	border-radius: 4px;
   
