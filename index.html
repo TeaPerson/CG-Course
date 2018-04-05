@@ -9,7 +9,7 @@
     <title>Fitness in a can</title>
   </head>
 
-  <body>
+  <body class="page-body">
     <header class="header">
       <div class="main-menu-container">
       <img src="./images/logo.png" alt="" />
@@ -30,27 +30,35 @@
       <section>
       <ul class="benefits">
         <li>
-          <img src="./images/icon1.svg" alt=""/>
+          <div class="benefits-icon">
+             <img src="./images/icon1.svg" alt=""/>
+          </div>
           <h3 class="benefits-title">Resourses</h3>
-          <p class="benefits-text">Text</p>
+          <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon2.svg" alt="" />
+          <div class="benefits-icon">
+            <img src="./images/icon2.svg" alt="" />
+          </div>
            <h3 class="benefits-title">Training&Funding</h3>
-          <p class="benefits-text">Text</p>
+          <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon3.svg" alt="" />
-          <h3 class="benefits-title">Connect</h3>
-          <p class="benefits-text">Text</p>
+          <div class="benefits-icon">
+             <img src="./images/icon3.svg" alt="" />
+          </div>
+         <h3 class="benefits-title">Connect</h3>
+          <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon4.svg" alt="" />
-          <h3 class="benefits-title">Communicate</h3>
-          <p class="benefits-text">Text</p>
+          <div class="benefits-icon">
+             <img src="./images/icon4.svg" alt="" />
+          </div>
+         <h3 class="benefits-title">Communicate</h3>
+          <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
       </ul>
@@ -59,12 +67,12 @@
        <div class="article1">
          <h3 class="third-title">It's all about</h3>
          <h2 class="second-title">Fitness first</h2>
-         <img src="./images/icon5.svg" alt="" />
+         <img src="./images/icon5.svg" width="15" height="23" class="icon-drop" alt="" />
          <p class="text-feature">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
          <a href="Read more" class="link-feature">Read more</a>
        </div>
        <div class="image-cover">
-         <img src="./images/img1.jpg" height='394' alt="" />
+         <img src="./images/img1.jpg" height='394' width="794"  alt="" />
          <div class="image-hover">
           <h3 class="third-title">It's all about</h3>
            <h2 class="second-title">Fithess first</h2>
@@ -74,7 +82,7 @@
        </div>
        <div class="main-third">
         <div class="image-cover">
-           <img src="./images/img2.jpg" height='394' alt="" />
+           <img src="./images/img2.jpg" height='394' width="794" alt="" />
            <div class="image-hover">
             <h3 class="third-title">Love your</h3>
            <h2 class="second-title">Your body</h2>
@@ -84,7 +92,7 @@
          <div class="article1">
          <h3 class="third-title">Love your</h3>
          <h2 class="second-title">Your body</h2>
-         <img src="./images/icon5.svg" alt="" />
+         <img src="./images/icon5.svg" width="15" height="23" class="icon-drop" alt="" />
          <p class="text-feature">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
          <a href="Read more" class="link-feature">Read more</a>
        </div>
@@ -95,11 +103,16 @@
     </main>
     <footer class="my-footer">
      
-      <form action="" method="post" class="my-form">
-       <input type="text" placeholder="Your name" class="my-input" />
-       <input type="text" placeholder=E-mail class="my-input" />
-       <button class="button-style">Join newsletter</button>
+      <form action="" method="post" id="my-form" class="my-form">
+       <input type="text" placeholder="Your name" class="my-input red" id="name"/>
+       <input type="text" placeholder=E-mail class="my-input red" id="mail"/>
+         <button class="button-style" id="join_newsletter">Join newsletter</button>
+       
         </form>
+        <div class="message" id="my_message">
+          Спасибо, Ваше сообщение отправлено!
+        </div>
+        <script src="./site_js.js"></script>
       <ul class="social_buttons">
         <li class="social social_fb">
           <a href=""> 
